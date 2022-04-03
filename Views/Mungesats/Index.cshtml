@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Sekretari_Demo.Models.Mungesat>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="color:red"><strong>Mungesat</strong></h2>
+<div>
+    Kerko Nxenes <input id="search" />
+    <button onclick="search()">search</button>
+</div>
+<div><br /></div>
+<p>
+    @Html.ActionLink("Krijo te re", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nr_Mungesave)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lenda.emri_lendes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nxene.emer)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nr_Mungesave)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lenda.emri_lendes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nxene.emer)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_mungesa }, new { @class = "btn btn-success" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id_mungesa }, new { @class = "btn btn-info" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_mungesa }, new { @class = "btn btn-danger deleteCategory" })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,42 @@
+﻿@model Sekretari_Demo.Models.Mungesat
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Mungesat</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Nr_Mungesave)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nr_Mungesave)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Lenda.emri_lendes)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Lenda.emri_lendes)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nxene.emer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nxene.emer)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_mungesa }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

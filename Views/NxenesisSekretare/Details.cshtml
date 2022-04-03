@@ -1,0 +1,34 @@
+﻿@model Sekretari_Demo.Models.Nxene
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Nxene</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.emer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.emer)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.mbiemer)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.mbiemer)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_nxenes }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

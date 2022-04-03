@@ -1,0 +1,401 @@
+﻿++Solution 'Sekretari Demo' ‎(1 of 1 project)
+i:{00000000-0000-0000-0000-000000000000}:Sekretari Demo.sln
+++Sekretari Demo
+i:{00000000-0000-0000-0000-000000000000}:Sekretari Demo
+++Properties
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\properties\
+++References
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++App_Data
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\app_data\
+++App_Start
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\app_start\
+++BundleConfig.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\app_start\bundleconfig.cs
+++FilterConfig.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\app_start\filterconfig.cs
+++IdentityConfig.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\app_start\identityconfig.cs
+++RouteConfig.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\app_start\routeconfig.cs
+++Startup.Auth.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\app_start\startup.auth.cs
+++Content
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\
+++bootstrap-theme.css
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap-theme.css
+++bootstrap-theme.css.map
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap-theme.css.map
+++bootstrap-theme.min.css
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap-theme.min.css
+++bootstrap-theme.min.css.map
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap-theme.min.css.map
+++bootstrap.css
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap.css
+++bootstrap.css.map
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap.css.map
+++bootstrap.min.css
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap.min.css
+++bootstrap.min.css.map
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\bootstrap.min.css.map
+++Site.css
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\content\site.css
+++Controllers
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\
+++AccountController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\accountcontroller.cs
+++AuditorisController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\auditoriscontroller.cs
+++HomeController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\homecontroller.cs
+++HomeMesuesisController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\homemesuesiscontroller.cs
+++HomeSekretareController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\homesekretarecontroller.cs
+++KlasasController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\klasascontroller.cs
+++LendasController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\lendascontroller.cs
+++ManageController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\managecontroller.cs
+++MesuesisController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\mesuesiscontroller.cs
+++MungesatsController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\mungesatscontroller.cs
+++NotatsController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\notatscontroller.cs
+++NxenesController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\nxenescontroller.cs
+++NxenesisSekretareController.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\controllers\nxenesissekretarecontroller.cs
+++fonts
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\
+++images
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\images\
+++Models
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\
+++Account.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\account.cs
+++AccountViewModels.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\accountviewmodels.cs
+++IdentityModels.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\identitymodels.cs
+++ManageViewModels.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\manageviewmodels.cs
+++Model1.edmx
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\model1.edmx
+++Scripts
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\
+++styles
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\styles\
+++Views
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\
+++Account
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\account\
+++_ExternalLoginsListPartial.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\account\_externalloginslistpartial.cshtml
+++_LayoutPage1LOGIN.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\account\_layoutpage1login.cshtml
+++Login.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\account\login.cshtml
+++Register.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\account\register.cshtml
+++Auditoris
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\auditoris\
+++Home
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\home\
+++Contact.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\home\contact.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\homemesuesis\contact.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\homesekretare\contact.cshtml
+++Index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\home\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\homemesuesis\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\homesekretare\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\klasas\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenes\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenesissekretare\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\auditoris\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\lendas\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\manage\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mesuesis\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mungesats\index.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\notats\index.cshtml
+++HomeMesuesis
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\homemesuesis\
+++HomeSekretare
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\homesekretare\
+++Klasas
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\klasas\
+++Create.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\klasas\create.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenes\create.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\auditoris\create.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\lendas\create.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mesuesis\create.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mungesats\create.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\notats\create.cshtml
+++Delete.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\klasas\delete.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenes\delete.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\auditoris\delete.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\lendas\delete.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mesuesis\delete.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mungesats\delete.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\notats\delete.cshtml
+++Details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\klasas\details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenes\details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenesissekretare\details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\auditoris\details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\lendas\details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mesuesis\details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mungesats\details.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\notats\details.cshtml
+++Edit.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\klasas\edit.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenes\edit.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\auditoris\edit.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\lendas\edit.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mesuesis\edit.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mungesats\edit.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\notats\edit.cshtml
+++Lendas
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\lendas\
+++Manage
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\manage\
+++Mesuesis
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mesuesis\
+++Mungesats
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\mungesats\
+++Notats
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\notats\
+++Nxenes
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenes\
+++NxenesisSekretare
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\nxenesissekretare\
+++Shared
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\shared\
+++_Layout.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\shared\_layout.cshtml
+++_LoginPartial.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\shared\_loginpartial.cshtml
+++Lockout.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\shared\lockout.cshtml
+++_ViewStart.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\_viewstart.cshtml
+++Web.config
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\web.config
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\web.config
+++favicon.ico
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\favicon.ico
+++Global.asax
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\global.asax
+++packages.config
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\packages.config
+++Startup.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\startup.cs
+++AssemblyInfo.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\properties\assemblyinfo.cs
+++Antlr3.Runtime
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++EntityFramework
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++EntityFramework.SqlServer
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.AspNet.Identity.Core
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.AspNet.Identity.EntityFramework
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.AspNet.Identity.Owin
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.CSharp
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin.Host.SystemWeb
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin.Security
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin.Security.Cookies
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin.Security.Google
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin.Security.MicrosoftAccount
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin.Security.OAuth
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Owin.Security.Twitter
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Microsoft.Web.Infrastructure
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Newtonsoft.Json
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++Owin
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.ComponentModel.DataAnnotations
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Configuration
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Core
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Data
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Data.DataSetExtensions
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Drawing
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.EnterpriseServices
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Net.Http
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Net.Http.WebRequest
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Runtime.Serialization
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Security
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Abstractions
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.ApplicationServices
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.DynamicData
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Entity
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Extensions
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Helpers
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Mvc
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Optimization
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Razor
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Routing
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.Services
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.WebPages
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.WebPages.Deployment
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Web.WebPages.Razor
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Xml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++System.Xml.Linq
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++WebGrease
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:
+++fontawesome-webfont.eot
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\fontawesome-webfont.eot
+++fontawesome-webfont.ttf
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\fontawesome-webfont.ttf
+++fontawesome-webfont.woff
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\fontawesome-webfont.woff
+++fontawesome-webfont.woff2
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\fontawesome-webfont.woff2
+++FontAwesome.otf
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\fontawesome.otf
+++glyphicons-halflings-regular.eot
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\glyphicons-halflings-regular.eot
+++glyphicons-halflings-regular.svg
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\glyphicons-halflings-regular.svg
+++glyphicons-halflings-regular.ttf
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\glyphicons-halflings-regular.ttf
+++glyphicons-halflings-regular.woff
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\glyphicons-halflings-regular.woff
+++glyphicons-halflings-regular.woff2
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\fonts\glyphicons-halflings-regular.woff2
+++bg.jpg
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\images\bg.jpg
+++Model1.Context.tt
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\model1.context.tt
+++Model1.Designer.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\model1.designer.cs
+++Model1.edmx.diagram
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\model1.edmx.diagram
+++Model1.tt
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\model1.tt
+++bootstrap.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\bootstrap.js
+++bootstrap.min.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\bootstrap.min.js
+++jquery-3.4.1.intellisense.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery-3.4.1.intellisense.js
+++jquery-3.4.1.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery-3.4.1.js
+++jquery-3.4.1.min.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery-3.4.1.min.js
+++jquery-3.4.1.min.map
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery-3.4.1.min.map
+++jquery-3.4.1.slim.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery-3.4.1.slim.js
+++jquery-3.4.1.slim.min.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery-3.4.1.slim.min.js
+++jquery-3.4.1.slim.min.map
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery-3.4.1.slim.min.map
+++jquery.validate-vsdoc.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery.validate-vsdoc.js
+++jquery.validate.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery.validate.js
+++jquery.validate.min.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery.validate.min.js
+++jquery.validate.unobtrusive.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery.validate.unobtrusive.js
+++jquery.validate.unobtrusive.min.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\jquery.validate.unobtrusive.min.js
+++modernizr-2.8.3.js
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\scripts\modernizr-2.8.3.js
+++font-awesome.css
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\styles\font-awesome.css
+++style.css
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\styles\style.css
+++AddPhoneNumber.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\manage\addphonenumber.cshtml
+++ChangePassword.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\manage\changepassword.cshtml
+++ManageLogins.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\manage\managelogins.cshtml
+++SetPassword.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\manage\setpassword.cshtml
+++VerifyPhoneNumber.cshtml
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\views\manage\verifyphonenumber.cshtml
+++Global.asax.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\global.asax.cs
+++Web.Debug.config
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\web.debug.config
+++Web.Release.config
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\web.release.config
+++Model1.Context.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\model1.context.cs
+++Auditori.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\auditori.cs
+++Klasa.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\klasa.cs
+++Lenda.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\lenda.cs
+++Mesuesi.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\mesuesi.cs
+++Model1.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\model1.cs
+++Mungesat.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\mungesat.cs
+++Notat.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\notat.cs
+++Nxene.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\nxene.cs
+++sp_helpdiagramdefinition_Result.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\sp_helpdiagramdefinition_result.cs
+++sp_helpdiagrams_Result.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\sp_helpdiagrams_result.cs
+++sysdiagram.cs
+i:{2da79534-5092-4a96-9e35-7fcff81c6dc2}:c:\users\user\source\repos\sekretari demo - pa ndryshim index\models\sysdiagram.cs

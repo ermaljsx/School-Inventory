@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Sekretari_Demo.Models.Mesuesi>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="color:blueviolet"><strong>Mesues</strong></h2>
+<div>
+    Kerko Mesues<input id="search" />
+    <button onclick="search()">search</button>
+</div>
+<div><br /></div>
+<p>
+    @Html.ActionLink("Krijo te re", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.emer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mbiemri)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Nr_Telefoni)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Lenda.emri_lendes)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.emer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mbiemri)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nr_Telefoni)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Lenda.emri_lendes)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_mesuesi }, new { @class = "btn btn-success" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id_mesuesi }, new { @class = "btn btn-info" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_mesuesi }, new { @class = "btn btn-danger deleteCategory" })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,290 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Auditori">
+    <Key>
+      <PropertyRef Name="id_auditori" />
+    </Key>
+    <Property Name="id_auditori" Type="Int32" Nullable="false" />
+    <Property Name="id_klasa" Type="Int32" Nullable="false" />
+    <Property Name="id_nxenes" Type="Int32" Nullable="false" />
+    <Property Name="id_mesuesi" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Klasa" Relationship="Self.FK_Auditori_Klasa" FromRole="Auditori" ToRole="Klasa" />
+    <NavigationProperty Name="Mesuesi" Relationship="Self.FK_Auditori_Mesuesi" FromRole="Auditori" ToRole="Mesuesi" />
+    <NavigationProperty Name="Nxene" Relationship="Self.FK_Auditori_Nxenes" FromRole="Auditori" ToRole="Nxenes" />
+  </EntityType>
+  <EntityType Name="Klasa">
+    <Key>
+      <PropertyRef Name="id_klasa" />
+    </Key>
+    <Property Name="id_klasa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Viti" Type="Int32" />
+    <Property Name="Grupi" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_mesuesi" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Auditoris" Relationship="Self.FK_Auditori_Klasa" FromRole="Klasa" ToRole="Auditori" />
+    <NavigationProperty Name="Mesuesi" Relationship="Self.FK_Klasa_Mesuesi" FromRole="Klasa" ToRole="Mesuesi" />
+  </EntityType>
+  <EntityType Name="Lenda">
+    <Key>
+      <PropertyRef Name="id_lenda" />
+    </Key>
+    <Property Name="id_lenda" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="emri_lendes" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="oret_javore" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="semestri" Type="Int32" />
+    <NavigationProperty Name="Mesuesis" Relationship="Self.FK_Mesuesi_Lenda" FromRole="Lenda" ToRole="Mesuesi" />
+    <NavigationProperty Name="Mungesats" Relationship="Self.FK_Mungesat_Lenda" FromRole="Lenda" ToRole="Mungesat" />
+    <NavigationProperty Name="Notats" Relationship="Self.FK_Notat_Lenda" FromRole="Lenda" ToRole="Notat" />
+  </EntityType>
+  <EntityType Name="Mesuesi">
+    <Key>
+      <PropertyRef Name="id_mesuesi" />
+    </Key>
+    <Property Name="id_mesuesi" Type="Int32" Nullable="false" />
+    <Property Name="emer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mbiemri" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Nr_Telefoni" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="email" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="id_lenda" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Auditoris" Relationship="Self.FK_Auditori_Mesuesi" FromRole="Mesuesi" ToRole="Auditori" />
+    <NavigationProperty Name="Klasas" Relationship="Self.FK_Klasa_Mesuesi" FromRole="Mesuesi" ToRole="Klasa" />
+    <NavigationProperty Name="Lenda" Relationship="Self.FK_Mesuesi_Lenda" FromRole="Mesuesi" ToRole="Lenda" />
+  </EntityType>
+  <EntityType Name="Mungesat">
+    <Key>
+      <PropertyRef Name="id_mungesa" />
+    </Key>
+    <Property Name="id_mungesa" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_nxenes" Type="Int32" Nullable="false" />
+    <Property Name="id_lenda" Type="Int32" Nullable="false" />
+    <Property Name="Nr_Mungesave" Type="Int32" />
+    <NavigationProperty Name="Lenda" Relationship="Self.FK_Mungesat_Lenda" FromRole="Mungesat" ToRole="Lenda" />
+    <NavigationProperty Name="Nxene" Relationship="Self.FK_Mungesat_Nxenes" FromRole="Mungesat" ToRole="Nxenes" />
+  </EntityType>
+  <EntityType Name="Notat">
+    <Key>
+      <PropertyRef Name="id_nota" />
+    </Key>
+    <Property Name="id_nota" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_nxenes" Type="Int32" Nullable="false" />
+    <Property Name="id_lenda" Type="Int32" Nullable="false" />
+    <Property Name="Nota" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Lenda" Relationship="Self.FK_Notat_Lenda" FromRole="Notat" ToRole="Lenda" />
+    <NavigationProperty Name="Nxene" Relationship="Self.FK_Notat_Nxenes" FromRole="Notat" ToRole="Nxenes" />
+  </EntityType>
+  <EntityType Name="Nxene">
+    <Key>
+      <PropertyRef Name="id_nxenes" />
+    </Key>
+    <Property Name="id_nxenes" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="emer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="mbiemer" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Auditoris" Relationship="Self.FK_Auditori_Nxenes" FromRole="Nxenes" ToRole="Auditori" />
+    <NavigationProperty Name="Mungesats" Relationship="Self.FK_Mungesat_Nxenes" FromRole="Nxenes" ToRole="Mungesat" />
+    <NavigationProperty Name="Notats" Relationship="Self.FK_Notat_Nxenes" FromRole="Nxenes" ToRole="Notat" />
+  </EntityType>
+  <EntityType Name="sysdiagram">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="principal_id" Type="Int32" Nullable="false" />
+    <Property Name="diagram_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="version" Type="Int32" />
+    <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
+  </EntityType>
+  <Association Name="FK_Auditori_Klasa">
+    <End Role="Klasa" Type="Self.Klasa" Multiplicity="1" />
+    <End Role="Auditori" Type="Self.Auditori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Klasa">
+        <PropertyRef Name="id_klasa" />
+      </Principal>
+      <Dependent Role="Auditori">
+        <PropertyRef Name="id_klasa" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Auditori_Mesuesi">
+    <End Role="Mesuesi" Type="Self.Mesuesi" Multiplicity="1" />
+    <End Role="Auditori" Type="Self.Auditori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mesuesi">
+        <PropertyRef Name="id_mesuesi" />
+      </Principal>
+      <Dependent Role="Auditori">
+        <PropertyRef Name="id_mesuesi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Auditori_Nxenes">
+    <End Role="Nxenes" Type="Self.Nxene" Multiplicity="1" />
+    <End Role="Auditori" Type="Self.Auditori" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nxenes">
+        <PropertyRef Name="id_nxenes" />
+      </Principal>
+      <Dependent Role="Auditori">
+        <PropertyRef Name="id_nxenes" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Klasa_Mesuesi">
+    <End Role="Mesuesi" Type="Self.Mesuesi" Multiplicity="1" />
+    <End Role="Klasa" Type="Self.Klasa" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Mesuesi">
+        <PropertyRef Name="id_mesuesi" />
+      </Principal>
+      <Dependent Role="Klasa">
+        <PropertyRef Name="id_mesuesi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mesuesi_Lenda">
+    <End Role="Lenda" Type="Self.Lenda" Multiplicity="1" />
+    <End Role="Mesuesi" Type="Self.Mesuesi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lenda">
+        <PropertyRef Name="id_lenda" />
+      </Principal>
+      <Dependent Role="Mesuesi">
+        <PropertyRef Name="id_lenda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mungesat_Lenda">
+    <End Role="Lenda" Type="Self.Lenda" Multiplicity="1" />
+    <End Role="Mungesat" Type="Self.Mungesat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lenda">
+        <PropertyRef Name="id_lenda" />
+      </Principal>
+      <Dependent Role="Mungesat">
+        <PropertyRef Name="id_lenda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notat_Lenda">
+    <End Role="Lenda" Type="Self.Lenda" Multiplicity="1" />
+    <End Role="Notat" Type="Self.Notat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Lenda">
+        <PropertyRef Name="id_lenda" />
+      </Principal>
+      <Dependent Role="Notat">
+        <PropertyRef Name="id_lenda" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Mungesat_Nxenes">
+    <End Role="Nxenes" Type="Self.Nxene" Multiplicity="1" />
+    <End Role="Mungesat" Type="Self.Mungesat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nxenes">
+        <PropertyRef Name="id_nxenes" />
+      </Principal>
+      <Dependent Role="Mungesat">
+        <PropertyRef Name="id_nxenes" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Notat_Nxenes">
+    <End Role="Nxenes" Type="Self.Nxene" Multiplicity="1" />
+    <End Role="Notat" Type="Self.Notat" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Nxenes">
+        <PropertyRef Name="id_nxenes" />
+      </Principal>
+      <Dependent Role="Notat">
+        <PropertyRef Name="id_nxenes" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Sekretaria_DemoEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Auditoris" EntityType="Self.Auditori" />
+    <EntitySet Name="Klasas" EntityType="Self.Klasa" />
+    <EntitySet Name="Lendas" EntityType="Self.Lenda" />
+    <EntitySet Name="Mesuesis" EntityType="Self.Mesuesi" />
+    <EntitySet Name="Mungesats" EntityType="Self.Mungesat" />
+    <EntitySet Name="Notats" EntityType="Self.Notat" />
+    <EntitySet Name="Nxenes" EntityType="Self.Nxene" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagram" />
+    <AssociationSet Name="FK_Auditori_Klasa" Association="Self.FK_Auditori_Klasa">
+      <End Role="Klasa" EntitySet="Klasas" />
+      <End Role="Auditori" EntitySet="Auditoris" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Auditori_Mesuesi" Association="Self.FK_Auditori_Mesuesi">
+      <End Role="Mesuesi" EntitySet="Mesuesis" />
+      <End Role="Auditori" EntitySet="Auditoris" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Auditori_Nxenes" Association="Self.FK_Auditori_Nxenes">
+      <End Role="Nxenes" EntitySet="Nxenes" />
+      <End Role="Auditori" EntitySet="Auditoris" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Klasa_Mesuesi" Association="Self.FK_Klasa_Mesuesi">
+      <End Role="Mesuesi" EntitySet="Mesuesis" />
+      <End Role="Klasa" EntitySet="Klasas" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mesuesi_Lenda" Association="Self.FK_Mesuesi_Lenda">
+      <End Role="Lenda" EntitySet="Lendas" />
+      <End Role="Mesuesi" EntitySet="Mesuesis" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mungesat_Lenda" Association="Self.FK_Mungesat_Lenda">
+      <End Role="Lenda" EntitySet="Lendas" />
+      <End Role="Mungesat" EntitySet="Mungesats" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notat_Lenda" Association="Self.FK_Notat_Lenda">
+      <End Role="Lenda" EntitySet="Lendas" />
+      <End Role="Notat" EntitySet="Notats" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Mungesat_Nxenes" Association="Self.FK_Mungesat_Nxenes">
+      <End Role="Nxenes" EntitySet="Nxenes" />
+      <End Role="Mungesat" EntitySet="Mungesats" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Notat_Nxenes" Association="Self.FK_Notat_Nxenes">
+      <End Role="Nxenes" EntitySet="Nxenes" />
+      <End Role="Notat" EntitySet="Notats" />
+    </AssociationSet>
+    <FunctionImport Name="sp_alterdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_creatediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="version" Mode="In" Type="Int32" />
+      <Parameter Name="definition" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="sp_dropdiagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagramdefinition" ReturnType="Collection(Model.sp_helpdiagramdefinition_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_helpdiagrams" ReturnType="Collection(Model.sp_helpdiagrams_Result)">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+    </FunctionImport>
+    <FunctionImport Name="sp_renamediagram">
+      <Parameter Name="diagramname" Mode="In" Type="String" />
+      <Parameter Name="owner_id" Mode="In" Type="Int32" />
+      <Parameter Name="new_diagramname" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="sp_upgraddiagrams" />
+  </EntityContainer>
+  <ComplexType Name="sp_helpdiagramdefinition_Result">
+    <Property Type="Int32" Name="version" Nullable="true" />
+    <Property Type="Binary" Name="definition" Nullable="true" />
+  </ComplexType>
+  <ComplexType Name="sp_helpdiagrams_Result">
+    <Property Type="String" Name="Database" Nullable="true" MaxLength="128" />
+    <Property Type="String" Name="Name" Nullable="false" MaxLength="128" />
+    <Property Type="Int32" Name="ID" Nullable="false" />
+    <Property Type="String" Name="Owner" Nullable="true" MaxLength="128" />
+    <Property Type="Int32" Name="OwnerID" Nullable="false" />
+  </ComplexType>
+</Schema>

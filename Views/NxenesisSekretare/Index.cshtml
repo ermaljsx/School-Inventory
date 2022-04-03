@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Sekretari_Demo.Models.Nxene>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Nxenes</h2>
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.emer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mbiemer)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.emer)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.mbiemer)
+        </td>
+        <td>
+             
+            @Html.ActionLink("Details", "Details", new { id=item.id_nxenes }) 
+         
+        </td>
+    </tr>
+}
+
+</table>

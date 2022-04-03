@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="94767415a9b2475ab49c5a67c140b77d" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="Model.Auditori" Width="1.5" PointX="6" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Klasa" Width="1.5" PointX="4.125" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Lenda" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Mesuesi" Width="1.5" PointX="1.375" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Mungesat" Width="1.5" PointX="9" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Notat" Width="1.5" PointX="8.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Nxene" Width="1.5" PointX="0.75" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagram" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK_Auditori_Klasa" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Auditori_Mesuesi" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Auditori_Nxenes" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Klasa_Mesuesi" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Mesuesi_Lenda" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Mungesat_Lenda" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Notat_Lenda" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Mungesat_Nxenes" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Notat_Nxenes" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

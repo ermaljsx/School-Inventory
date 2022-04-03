@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Sekretari_Demo.Models.Lenda>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2 style="color:darkgreen"><strong>Lendet</strong></h2>
+<div>
+    Kerko Lende <input id="search" />
+    <button onclick="search()">search</button>
+</div>
+<div><br /></div>
+<p>
+    @Html.ActionLink("Krijo te re", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.emri_lendes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.oret_javore)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.semestri)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.emri_lendes)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.oret_javore)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.semestri)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_lenda }, new { @class = "btn btn-success" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id_lenda }, new { @class = "btn btn-info" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_lenda }, new { @class = "btn btn-danger deleteCategory" })
+            </td>
+        </tr>
+    }
+
+</table>

@@ -1,0 +1,55 @@
+﻿@model IEnumerable<Sekretari_Demo.Models.Nxene>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Nxenes</h2>
+
+<div>
+    Kerko Nxenes<input id="search" />
+    <button onclick="search()">search</button>
+</div>
+<div><br /></div>
+<p>
+    @Html.ActionLink("Create New", "Create", null, new { @class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.emer)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.mbiemer)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.emer)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.mbiemer)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id_nxenes }, new { @class = "btn btn-success" }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id_nxenes }, new { @class = "btn btn-info" }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id_nxenes }, new { @class = "btn btn-danger deleteCategory" })
+
+            </td>
+        </tr>
+    }
+
+</table>
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            var table =
+                $("#Nxenes").DataTable();
+        });
+    </script>
+}
